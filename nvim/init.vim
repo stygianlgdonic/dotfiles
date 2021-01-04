@@ -1,6 +1,7 @@
 set encoding=utf-8
 set number relativenumber
 syntax on
+set noerrorbells
 set noswapfile
 set hidden
 set nobackup
@@ -31,7 +32,6 @@ Plug 'norcalli/nvim-colorizer.lua'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mbbill/undotree'
-Plug 'sheerun/vim-polyglot'
 Plug 'preservim/nerdcommenter'
 call plug#end()
 
