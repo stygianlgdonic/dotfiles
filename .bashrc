@@ -126,16 +126,3 @@ fi
 parse_git_branch() {
  git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
-
-# Aliases
-alias mkd="mkdir -pv"
-alias gl="git log"
-alias gcl="git clone"
-alias ga="git add"
-alias gcm="git commit -m"
-alias gps="git push"
-alias gpl="git pull"
-alias gm="git merge --no-ff"
-alias gch="git checkout"
-alias gs="git status"
-alias clip="xclip -selection clipboard"
